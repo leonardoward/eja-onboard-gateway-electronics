@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name esp32-wroom-board)(type Legacy)(uri ${KIPRJMOD}/symbols/esp32-wroom-board.lib)(options "")(descr ""))
+  (lib (name LoRa_RFM95W_Board-cache)(type Legacy)(uri ${KIPRJMOD}/symbols/LoRa_RFM95W_Board-cache.lib)(options "")(descr ""))
+  (lib (name Onboard_Gateway-rescue)(type Legacy)(uri ${KIPRJMOD}/Onboard_Gateway-rescue.lib)(options "")(descr ""))
+  (lib (name USB_LiIon_LiPoly_Charger_Board-cache)(type Legacy)(uri ${KIPRJMOD}/symbols/USB_LiIon_LiPoly_Charger_Board-cache.lib)(options "")(descr ""))
+  (lib (name ESP32-DEVKITC-32D)(type Legacy)(uri ${KIPRJMOD}/symbols/ESP32-DEVKITC-32D.lib)(options "")(descr ""))
+)
