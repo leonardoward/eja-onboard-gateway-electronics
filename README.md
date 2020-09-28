@@ -8,7 +8,7 @@ This repository contains the KiCad design for the PCB of the Onboard Gateway. It
 
 ## Main Components ##
 
-![alt text](./img/Components_Buoy_B.jpg "Components")
+![alt text](./img/Components_onboard_gateway_4.jpg "Components")
 
 ## Schematic ##
 
