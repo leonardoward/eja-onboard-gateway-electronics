@@ -1,6 +1,8 @@
 # EJA Onboard Gateway - Electronic Design
 
-EJA Onboard Gateway - Electronic Design - 2020 Hackaday Dream Team Challenge for Conservation X Labs
+EJA Onboard Gateway - Electronic Design - [2020 Hackaday Dream Team Challenge for Conservation X Labs](https://hackaday.io/project/173457-2020-hdp-dream-team-conservation-x-labs)
+
+Onboard Gateway is a 134.11 mm x 62.48 mm PCB that integrates the 3 main components (ESP32, LoRa and USB LiIon/LiPoly charger)
 
 This repository contains the KiCad design for the PCB of the Onboard Gateway. It also contains the 3D models used to visualize the design in the KiCad 3D viewer.
 
@@ -10,9 +12,17 @@ This repository contains the KiCad design for the PCB of the Onboard Gateway. It
 
 ![alt text](./img/Components_onboard_gateway_4.jpg "Components")
 
+Sources:
+
+- [ESP32-DEVKITC-32D](https://www.digikey.com/product-detail/es/espressif-systems/ESP32-DEVKITC-32D/1965-1000-ND/9356990)
+- [RFM95W LoRa Radio](https://www.digikey.com/product-detail/es/adafruit-industries-llc/3072/1528-1667-ND/6005357)
+- [USB LiIon/LiPoly charger](https://www.adafruit.com/product/259)
+
 ## Schematic ##
 
 ![alt text](./img/Schematic_Onboard_Gateway.png "Schematic")
+
+[For a detailed explanation of the schematic visit the following log.](https://hackaday.io/project/173457/log/181839-onboard-gateway-v10-schematic-and-pcb-design)
 
 ## PCB Layout ##
 
@@ -58,6 +68,25 @@ Components List:
 32. [RFM95W LoRa Radio](https://www.digikey.com/product-detail/es/adafruit-industries-llc/3072/1528-1667-ND/6005357)
 33. CONN HEADER VERT 16POS 2.54MM (included in [RFM95W LoRa Radio](https://www.digikey.com/product-detail/es/adafruit-industries-llc/3072/1528-1667-ND/6005357))
 
+[For a detailed Bill of Materials visit the following log.](https://hackaday.io/project/173457/log/183759-onboard-gateway-v10-bill-of-materials)
+
+[For a detailed explanation about the soldering and assembly procedure visit the following log.](https://hackaday.io/project/173457/log/183665-onboard-gateway-v10-assembly)
+
 ## Wiring Diagrams ##
 
+The following diagram presents the physical connections of the different boards and components of the Onboard Gateway, that includes:
+
+- 3.7V 1 Cell Battery
+- Leds (Charge, Done and 4 Miscellaneous)
+- PCB Board for the Onboard Gateway V1.0
+- 5V Charger (only used to charge the battery)
+- Micro USB Breakout Board
+- Switch
+
 ![alt text](./Wiring_Diagrams/Wiring_Onboard_Gateway_07_wired.png "Wiring Diagrams")
+
+[For more information about the wiring diagrams and the project visit the following log.](https://hackaday.io/project/173457-2020-hdp-dream-team-conservation-x-labs/log/182586-onboard-gateway-v10-wiring-diagram)
+
+## Future improvements ##
+
+[For more information about the recommended future improvements for the electronic design visit the following log.](https://hackaday.io/project/173457/log/183807-future-improvements-pcb-design)
